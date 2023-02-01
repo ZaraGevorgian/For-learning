@@ -6,4 +6,9 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  env: {
+    globalUrl: 'http://87.249.49.66/testing/#/map/',
+    allureResultsPath: "allure-results",
+    
+  },
 });
