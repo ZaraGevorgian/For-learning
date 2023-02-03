@@ -1,4 +1,4 @@
-describe('check login', () => {
+describe('Verify login functionality', () => {
     it('login', () => {
         cy.visit (Cypress.env('globalUrl'))
         cy.url().should('include', Cypress.env('globalUrl'))
